@@ -1,18 +1,48 @@
 /* common styles */
+body {
+    font-family: Montserrat, sans-serif;
+    color:#111;
+}
+a {
+    text-decoration: none;
+    color: currentColor;
+}
+button {
+    font-family: inherit;
+    cursor: pointer;
+}
+.section {
 
-
+}
+ul, ol {
+    list-style: none;
+}
 /* header styles */
 .header {
 }
 .header-nav {
 }
 .header-logo {
+    color: #111;
+font-size: 18px;
+font-weight: 700;
+line-height: 1.1;
+letter-spacing: -0.54px;
+}
+.logo-part {
+font-style: italic;
 }
 .header-list {
 }
 .header-item {
+
 }
 .header-link {
+    color: #111;
+font-size: 14px;
+font-weight: 500;
+line-height: 1.14;
+letter-spacing: -0.28px;
 }
 .header-networks {
 }
@@ -23,34 +53,80 @@
 
 /* hero styles */
 .hero {
+    background-color: gray;
 }
 .hero-title {
+    color: #FFF;
+   font-size: 28px;
+font-weight: 500;
+line-height: 1.21;
+letter-spacing: -0.84px;
 }
 .accent-btn {
+    color: #FFF;
+    font-size: 14px;
+font-weight: 600;
+line-height: 1.21;
+border-radius: 100px;
+background: #FD9222;
+border: none;
 }
 .primary-btn {
+    color: #FFF;
+    font-size: 14px;
+font-weight: 600;
+line-height: normal;
 }
 .scroll-btn {
+    color: #FFF;
+font-size: 14px;
+font-weight: 500;
+line-height: 1,29;
+letter-spacing: -0.42px;
 }
 
 /* benefits styles */
 .benefits-section {
+    background-color: #1E1823;
 }
 .benefits-list {
 }
 .benefits-item {
 }
 .benefits-subtitle {
+    color: #FFF;
+font-size: 18px;
+font-weight: 600;
+line-height: normal;
 }
 .benefits-desc {
+    color: rgba(255, 255, 255, 0.70);
+font-size: 14px;
+line-height: normal;
+letter-spacing: -0.28px;
 }
 
 /* ingredients styles */
 .ingredients-section {
+    
 }
 .ingr-title {
+   text-align: center;
+font-size: 24px;
+font-weight: 600;
+line-height: 1.33;
+letter-spacing: -0.72px;
+text-transform: uppercase;
+}
+.ingr-title-part {
+    color: #FD9222;
 }
 .ingr-text {
+ text-align: center;
+font-size: 14px;
+font-weight: 400;
+line-height: 1.29;
+letter-spacing: -0.28px;
 }
 .ingr-list {
 }
@@ -58,7 +134,21 @@
 }
 .ingr-image {
 }
-
+.ingr-subtitle-color {
+color: #FFF;
+font-size: 14px;
+font-weight: 600;
+line-height: 1.28;
+letter-spacing: -0.28px;
+text-transform: uppercase;
+}
+.ingr-subtitle {
+   font-size: 14px;
+font-weight: 600;
+line-height: 1.28;
+letter-spacing: -0.28px;
+text-transform: uppercase;
+}
 /* how its made styles */
 .recipe-section {
 }
