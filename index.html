@@ -23,7 +23,14 @@
       rel="stylesheet"
     />
     <!-- normalize -->
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/modern-normalize@2.0.0/modern-normalize.min.css">
+   
+<!-- Add the slick-theme.css if you want default styling -->
+<link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
+<!-- Add the slick-theme.css if you want default styling -->
+<link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css"/>
+  
+
+
     <!-- custom styles -->
     <link rel="stylesheet" href="./css/style.css" />
   </head>
@@ -157,59 +164,117 @@
         </ul>
       </section>
       <!-- ingredients section -->
-      <section class="ingredients-section">
-        <h2 class="ingr-title">
-          IT ALL ADDS UP TO ONE EXCEPTIONAL <span class="ingr-title-part">TASTE</span> SENSATION
-        </h2>
-        <p class="ingr-text">
-          At Simply Chocolate, we believe that the secret to exceptional
-          chocolate is in the details. From the sourcing of the finest
-          ingredients to the careful crafting of each individual piece, every
-          step of our process adds up to one exceptional taste sensation.
-        </p>
-        <ul class="ingr-list">
-          <li class="ingr-item">
-            <img
-              class="ingr-image"
-              src="./image/ingredients/chocolate.png"
-              alt="chocolate"
-              width="206"
-              height="160"
-            />
-            <h3 clas="ingr-subtitle-color">mILK CHOCOLATE</h3>
-          </li>
-          <li class="ingr-item">
-            <img
-              class="ingr-image"
-              src="./image/ingredients/milk.png"
-              alt="bottle of milk"
-              width="206"
-              height="160"
-            />
-            <h3 clas="ingr-subtitle">Milk</h3>
-          </li>
-          <li class="ingr-item">
-            <img
-              class="ingr-image"
-              src="./image/ingredients/nuts.png"
-              alt="nuts"
-              width="206"
-              height="160"
-            />
-            <h3 clas="ingr-subtitle-color">nuts</h3>
-          </li>
-          <li class="ingr-item">
-            <img
-              class="ingr-image"
-              src="./image/ingredients/cocoa.png"
-              alt="chocolate drops"
-              width="206"
-              height="160"
-            />
-            <h3 clas="ingr-subtitle">sEMI - SWEET CHOCOLATE</h3>
-          </li>
-        </ul>
-      </section>
+      
+        <section class="ingredients-section">
+          <h2 class="ingr-title">
+            IT ALL ADDS UP TO ONE EXCEPTIONAL <span class="ingr-title-part">TASTE</span> SENSATION
+          </h2>
+          <p class="ingr-text">
+            At Simply Chocolate, we believe that the secret to exceptional
+            chocolate is in the details. From the sourcing of the finest
+            ingredients to the careful crafting of each individual piece, every
+            step of our process adds up to one exceptional taste sensation.
+          </p>
+          <div >
+          <ul class="ingr-list multiple-items">
+          
+            <div class="slider_image">
+              <li class="ingr-item">
+                <img
+                  class="ingr-image"
+                  src="./image/ingredients/chocolate.png"
+                  alt="chocolate"
+                  width="206"
+                  height="160"
+                />
+                <h3 clas="ingr-subtitle-color">mILK CHOCOLATE</h3>
+              </li>
+            </div>
+            <div class="slider_image">
+              <li class="ingr-item">
+                <img
+                  class="ingr-image"
+                  src="./image/ingredients/milk.png"
+                  alt="bottle of milk"
+                  width="206"
+                  height="160"
+                />
+                <h3 clas="ingr-subtitle">Milk</h3>
+              </li>
+            </div>
+            <div class="slider_image">
+              <li class="ingr-item">
+                <img
+                  class="ingr-image"
+                  src="./image/ingredients/nuts.png"
+                  alt="nuts"
+                  width="206"
+                  height="160"
+                />
+                <h3 clas="ingr-subtitle-color">nuts</h3>
+              </li>
+            </div>
+            <div class="slider_image">
+              <li class="ingr-item">
+                <img
+                  class="ingr-image"
+                  src="./image/ingredients/cocoa.png"
+                  alt="chocolate drops"
+                  width="206"
+                  height="160"
+                />
+                <h3 clas="ingr-subtitle">sEMI - SWEET CHOCOLATE</h3>
+              </li>
+            </div>
+            <div class="slider_image">
+              <li class="ingr-item">
+                <img
+                  class="ingr-image"
+                  src="./image/ingredients/chocolate.png"
+                  alt="chocolate"
+                  width="206"
+                  height="160"
+                />
+                <h3 clas="ingr-subtitle-color">mILK CHOCOLATE</h3>
+              </li>
+            </div>
+            <div class="slider_image">
+              <li class="ingr-item">
+                <img
+                  class="ingr-image"
+                  src="./image/ingredients/milk.png"
+                  alt="bottle of milk"
+                  width="206"
+                  height="160"
+                />
+                <h3 clas="ingr-subtitle">Milk</h3>
+              </li>
+            </div>
+            <div class="slider_image">
+              <li class="ingr-item">
+                <img
+                  class="ingr-image"
+                  src="./image/ingredients/nuts.png"
+                  alt="nuts"
+                  width="206"
+                  height="160"
+                />
+                <h3 clas="ingr-subtitle-color">nuts</h3>
+              </li>
+            </div>
+            <li class="ingr-item">
+              <img
+                class="ingr-image"
+                src="./image/ingredients/cocoa.png"
+                alt="chocolate drops"
+                width="206"
+                height="160"
+              />
+              <h3 clas="ingr-subtitle">sEMI - SWEET CHOCOLATE</h3>
+            </li>
+          </ul>
+        </section>
+      </div>
       <!-- recipe section -->
       <section class="recipe-section" id="how">
         <h2 class="recipe-title">hOW IT’S <span>made?</span></h2>
@@ -342,5 +407,9 @@
       <form action="">Enter your email</form>
       <button type="button">Subscribe</button>
     </footer>
+    <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+<script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+    <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+    <script src="./slider.js"></script>
   </body>
 </html>
